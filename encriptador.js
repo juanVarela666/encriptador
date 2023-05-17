@@ -17,10 +17,6 @@ function encriptar() {
 
 function desencriptar() {
 
-    if (!mensajeEncriptadoCopiado) {
-        return;
-    }
-
     document.getElementById("caja1").style.visibility = "hidden";
     document.getElementById("botonCopiar").style.display = "block";
     
